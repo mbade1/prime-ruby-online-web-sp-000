@@ -7,7 +7,9 @@ def prime?(int)
   elsif
     #start at 2, the first prime number and go up to the integer, but not the integer itself. Iterate each number up to the integer (hence, the - 1)
     (2...int - 1).each do |i|
+      #if any iteration has NO remainder...
       if int % i == 0
+        #return false
         return false
       end
     end
