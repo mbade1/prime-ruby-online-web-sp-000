@@ -14,7 +14,7 @@ def prime?(int)
       end
     end
   end
-  #if the number from 2 (the first prime number) up to the integer in question HAS a remainder of anything BUT 0, it IS a prime number, so true! 
+  #if the number from 2 (the first prime number) up to the integer in question HAS a remainder of anything BUT 0, it IS a prime number, so true!
   true
 end
 
