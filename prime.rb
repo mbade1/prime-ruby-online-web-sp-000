@@ -5,6 +5,7 @@ def prime?(int)
     return false
   #if the number from 2 (the first prime number) up to the integer in question has a remainder of 0, it's NOT a prime number.
   elsif
+    #start at 2, the first prime number and go up to the integer, but not the integer itself. Iterate each number up to the integer (hence, the - 1)
     (2...int - 1).each do |i|
       if int % i == 0
         return false
