@@ -14,6 +14,8 @@ def prime?(int)
       end
     end
   end
-  #if the number from 2 (the first prime number) up to the integer in question does NOT have a remainder of 0, it IS a prime number
+  #if the number from 2 (the first prime number) up to the integer in question HAS a remainder of anything BUT 0, it IS a prime number, so true! 
   true
 end
+
+#another method for this problem, if you want to list all prime numbers up to infinity, you can push the true options to a new array...
